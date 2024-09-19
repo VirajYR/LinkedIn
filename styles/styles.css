@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Blinker", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header, div{
+    /* border: 1px solid black; */
+}
+
+header{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header .container .logo{
+    width: 45%;
+}
+
+header .container .logo img{
+    max-width: 90px;
+}
+
+
+
+
+header .container .icons{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+header .container .icons .icon{
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+}
+
+header .container .icons .icon:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header .container .icons .icon i{
+    font-size: 25px;
+}
+
+header .container .btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+  }
+
+header .container .btns button{
+    border: 1px solid rgb(10 102 194);
+    border-radius: 50px;
+    padding: 15px 25px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+#btn1{
+    color: rgb(10 102 194);
+}
+#btn1:hover{
+    background-color: rgb(204, 204, 204);
+}
+#btn2{
+    color: white;
+    background-color:rgb(10 102 194);
+}
+#btn2:hover{
+    background-color:rgb(4, 14, 106);
+}
+
+header .container .icons::after{
+    content: "";
+    margin: 10px;
+    border-left: 1px solid #757575;
+    margin-left: 0px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+section{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section div{
+    /* border: 5px solid blue; */
+    margin: 25px;
+}
+
+#fd{
+    /* text-align: center; */
+    width: 40%;
+    margin-left: 190px;
+}
+
+#fd #title{
+    font-size: 54px;
+    color: #757575;
+} 
+
+#fd a{
+    border: 2px solid #757575;
+    padding: 10px;
+    display: block;
+    width: 70%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#fd a:hover{
+    background-color: #d7d3d3;
+}
+.bold{
+    font-weight: bold;
+}
+
+#sd{
+    width: 50%;
+    height: 600px;
+    background-image: url("./../images/cover-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#fd p,#fd #title, #fd a{
+    margin: 20px 0;
+}
+
+#fd p{
+    text-align: center;
+    width: 70%;
+}
+
+.aclass{
+    color: blue;
+    /* font-weight: bold; */
+    /* font-size: 18px; */
+}
+
+.aclass:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
